@@ -1,0 +1,499 @@
+# DO NOT DELETE
+
+utils.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+utils.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+utils.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+utils.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+utils.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+utils.o: /usr/include/sys/_stdarg.h /usr/include/stdlib.h
+utils.o: /usr/include/string.h /usr/include/strings.h
+utils.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+utils.o: /usr/include/inttypes.h /usr/include/machine/_inttypes.h
+utils.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+utils.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+utils.o: /usr/include/sys/_stdint.h text.h utils.h /usr/include/stdbool.h
+utils.o: mtypes.h /usr/include/stdint.h fault.h check.h main.h
+fault.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+fault.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+fault.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+fault.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+fault.o: /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h
+fault.o: /usr/include/sys/_stdarg.h /usr/include/stdlib.h
+fault.o: /usr/include/string.h /usr/include/strings.h
+fault.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+fault.o: main.h device/machine.h mtypes.h /usr/include/stdint.h list.h main.h
+fault.o: cpu/cpu.h /usr/include/stdbool.h /usr/include/unistd.h
+fault.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+fault.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+fault.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+fault.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+fault.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+fault.o: /usr/include/sys/unistd.h cpu/instr.h parser.h mtypes.h endi.h
+fault.o: ../config.h device/device.h fault.h
+text.o: /usr/include/errno.h /usr/include/sys/cdefs.h /usr/include/string.h
+text.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+text.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+text.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+text.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+text.o: /usr/include/xlocale/_string.h ../config.h text.h main.h
+env.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+env.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+env.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+env.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+env.o: /usr/include/string.h /usr/include/strings.h
+env.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+env.o: /usr/include/stdbool.h env.h mtypes.h /usr/include/stdint.h parser.h
+env.o: io/output.h cpu/instr.h main.h mtypes.h check.h utils.h
+env.o: /usr/include/stdio.h /usr/include/stdarg.h /usr/include/x86/stdarg.h
+env.o: /usr/include/sys/_stdarg.h
+cline.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+cline.o: /usr/include/sys/_stdarg.h /usr/include/sys/cdefs.h
+cline.o: /usr/include/sys/_types.h /usr/include/machine/_types.h
+cline.o: /usr/include/x86/_types.h /usr/include/machine/_limits.h
+cline.o: /usr/include/x86/_limits.h /usr/include/stdlib.h
+cline.o: /usr/include/sys/_null.h /usr/include/stdio.h cline.h
+cline.o: /usr/include/stdbool.h utils.h mtypes.h /usr/include/stdint.h
+cline.o: fault.h
+cmd.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+cmd.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+cmd.o: /usr/include/sys/_types.h /usr/include/machine/_types.h
+cmd.o: /usr/include/x86/_types.h /usr/include/machine/_limits.h
+cmd.o: /usr/include/x86/_limits.h /usr/include/sys/_pthreadtypes.h
+cmd.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+cmd.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+cmd.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+cmd.o: /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h
+cmd.o: /usr/include/sys/_null.h /usr/include/xlocale/_time.h
+cmd.o: /usr/include/fcntl.h /usr/include/stdlib.h /usr/include/stdio.h
+cmd.o: /usr/include/string.h /usr/include/strings.h
+cmd.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+cmd.o: /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/errno.h
+cmd.o: /usr/include/inttypes.h /usr/include/machine/_inttypes.h
+cmd.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+cmd.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h main.h cmd.h
+cmd.o: mtypes.h /usr/include/stdint.h parser.h /usr/include/stdbool.h check.h
+cmd.o: device/device.h mtypes.h parser.h cpu/cpu.h list.h cpu/instr.h main.h
+cmd.o: device/machine.h endi.h ../config.h device/device.h debug/debug.h
+cmd.o: cpu/instr.h device/device.h debug/breakpoint.h fault.h io/output.h
+cmd.o: utils.h /usr/include/stdarg.h /usr/include/x86/stdarg.h
+cmd.o: /usr/include/sys/_stdarg.h env.h cline.h
+check.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+check.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+check.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+check.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+check.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+check.o: /usr/include/sys/_stdarg.h /usr/include/stdlib.h
+check.o: /usr/include/unistd.h /usr/include/sys/types.h
+check.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+check.o: /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h
+check.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+check.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+check.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h
+check.o: /usr/include/stdbool.h check.h
+main.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+main.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+main.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+main.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+main.o: /usr/include/stdio.h /usr/include/fcntl.h /usr/include/unistd.h
+main.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+main.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+main.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+main.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+main.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+main.o: /usr/include/sys/unistd.h /usr/include/getopt.h /usr/include/string.h
+main.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+main.o: /usr/include/xlocale/_string.h text.h mtypes.h /usr/include/stdint.h
+main.o: device/device.h mtypes.h parser.h /usr/include/stdbool.h cpu/cpu.h
+main.o: list.h cpu/instr.h main.h cpu/cpu.h device/machine.h endi.h
+main.o: ../config.h device/device.h parser.h endi.h cmd.h io/output.h
+main.o: debug/gdb.h fault.h utils.h /usr/include/stdarg.h
+main.o: /usr/include/x86/stdarg.h /usr/include/sys/_stdarg.h
+parser.o: /usr/include/string.h /usr/include/sys/cdefs.h
+parser.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+parser.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+parser.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+parser.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+parser.o: /usr/include/xlocale/_string.h /usr/include/stdlib.h
+parser.o: /usr/include/stdio.h parser.h /usr/include/stdbool.h
+parser.o: /usr/include/stdint.h mtypes.h io/output.h check.h utils.h
+parser.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+parser.o: /usr/include/sys/_stdarg.h device/device.h mtypes.h parser.h
+parser.o: cpu/cpu.h /usr/include/unistd.h /usr/include/sys/types.h
+parser.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+parser.o: /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h
+parser.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+parser.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+parser.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h list.h
+parser.o: cpu/instr.h main.h cline.h
+list.o: /usr/include/stddef.h /usr/include/sys/cdefs.h
+list.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+list.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+list.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h list.h
+list.o: check.h
+io/input.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+io/input.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+io/input.o: /usr/include/x86/endian.h /usr/include/sys/_types.h
+io/input.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+io/input.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+io/input.o: /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h
+io/input.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+io/input.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+io/input.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h
+io/input.o: /usr/include/sys/_null.h /usr/include/stdbool.h
+io/input.o: /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h
+io/input.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+io/input.o: arch/console.h /usr/include/termios.h /usr/include/sys/_termios.h
+io/input.o: /usr/include/sys/ttycom.h /usr/include/sys/ioccom.h
+io/input.o: /usr/include/sys/ttydefaults.h device/machine.h mtypes.h
+io/input.o: /usr/include/stdint.h list.h main.h cpu/cpu.h cpu/instr.h
+io/input.o: parser.h mtypes.h endi.h ../config.h device/device.h check.h
+io/input.o: cmd.h parser.h utils.h /usr/include/stdlib.h
+io/input.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+io/input.o: /usr/include/sys/_stdarg.h io/input.h io/output.h
+io/output.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+io/output.o: /usr/include/sys/_stdarg.h /usr/include/sys/cdefs.h
+io/output.o: /usr/include/sys/_types.h /usr/include/machine/_types.h
+io/output.o: /usr/include/x86/_types.h /usr/include/machine/_limits.h
+io/output.o: /usr/include/x86/_limits.h /usr/include/unistd.h
+io/output.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+io/output.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+io/output.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+io/output.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+io/output.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+io/output.o: /usr/include/sys/unistd.h /usr/include/sys/_null.h
+io/output.o: /usr/include/stdio.h /usr/include/ctype.h /usr/include/_ctype.h
+io/output.o: /usr/include/runetype.h /usr/include/xlocale/_ctype.h
+io/output.o: /usr/include/string.h /usr/include/strings.h
+io/output.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+io/output.o: /usr/include/stdbool.h io/output.h check.h parser.h
+io/output.o: /usr/include/stdint.h mtypes.h cline.h
+cpu/cpu.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+cpu/cpu.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+cpu/cpu.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+cpu/cpu.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+cpu/cpu.o: /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h
+cpu/cpu.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+cpu/cpu.o: /usr/include/inttypes.h /usr/include/machine/_inttypes.h
+cpu/cpu.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+cpu/cpu.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+cpu/cpu.o: /usr/include/sys/_stdint.h device/machine.h mtypes.h
+cpu/cpu.o: /usr/include/stdint.h list.h main.h cpu/cpu.h
+cpu/cpu.o: /usr/include/stdbool.h /usr/include/unistd.h
+cpu/cpu.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+cpu/cpu.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+cpu/cpu.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+cpu/cpu.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+cpu/cpu.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h cpu/instr.h
+cpu/cpu.o: parser.h mtypes.h endi.h ../config.h device/device.h debug/debug.h
+cpu/cpu.o: cpu/instr.h device/device.h debug/breakpoint.h debug/gdb.h
+cpu/cpu.o: io/output.h check.h text.h env.h parser.h fault.h utils.h
+cpu/cpu.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+cpu/cpu.o: /usr/include/sys/_stdarg.h cpu/cpu.h
+cpu/instr.o: cpu/instr.h /usr/include/stdint.h main.h mtypes.h
+debug/debug.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+debug/debug.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+debug/debug.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+debug/debug.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+debug/debug.o: /usr/include/string.h /usr/include/strings.h
+debug/debug.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+debug/debug.o: /usr/include/stdbool.h cpu/instr.h cpu/cpu.h
+debug/debug.o: /usr/include/stdint.h /usr/include/unistd.h
+debug/debug.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+debug/debug.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+debug/debug.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+debug/debug.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+debug/debug.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+debug/debug.o: /usr/include/sys/unistd.h mtypes.h list.h cpu/instr.h main.h
+debug/debug.o: device/machine.h parser.h mtypes.h endi.h ../config.h
+debug/debug.o: device/device.h device/dcpu.h device/mem.h io/output.h env.h
+debug/debug.o: parser.h utils.h /usr/include/stdlib.h /usr/include/stdarg.h
+debug/debug.o: /usr/include/x86/stdarg.h /usr/include/sys/_stdarg.h
+debug/debug.o: debug/debug.h device/device.h
+debug/gdb.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+debug/gdb.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+debug/gdb.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+debug/gdb.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+debug/gdb.o: /usr/include/errno.h /usr/include/string.h
+debug/gdb.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+debug/gdb.o: /usr/include/xlocale/_string.h /usr/include/stdarg.h
+debug/gdb.o: /usr/include/x86/stdarg.h /usr/include/sys/_stdarg.h
+debug/gdb.o: /usr/include/unistd.h /usr/include/sys/types.h
+debug/gdb.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+debug/gdb.o: /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h
+debug/gdb.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+debug/gdb.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+debug/gdb.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h
+debug/gdb.o: /usr/include/stdbool.h arch/network.h /usr/include/sys/socket.h
+debug/gdb.o: /usr/include/sys/_iovec.h /usr/include/machine/_align.h
+debug/gdb.o: /usr/include/x86/_align.h /usr/include/sys/_sockaddr_storage.h
+debug/gdb.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+debug/gdb.o: device/machine.h mtypes.h /usr/include/stdint.h list.h main.h
+debug/gdb.o: cpu/cpu.h cpu/instr.h parser.h mtypes.h endi.h ../config.h
+debug/gdb.o: device/device.h device/dcpu.h io/output.h check.h text.h fault.h
+debug/gdb.o: utils.h /usr/include/stdlib.h debug/breakpoint.h debug/gdb.h
+debug/breakpoint.o: debug/breakpoint.h /usr/include/stdbool.h list.h mtypes.h
+debug/breakpoint.o: /usr/include/stdint.h /usr/include/inttypes.h
+debug/breakpoint.o: /usr/include/machine/_inttypes.h
+debug/breakpoint.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+debug/breakpoint.o: /usr/include/sys/cdefs.h /usr/include/sys/_types.h
+debug/breakpoint.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+debug/breakpoint.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+debug/breakpoint.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+debug/breakpoint.o: /usr/include/sys/_stdint.h io/output.h device/machine.h
+debug/breakpoint.o: main.h cpu/cpu.h /usr/include/unistd.h
+debug/breakpoint.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+debug/breakpoint.o: /usr/include/x86/endian.h
+debug/breakpoint.o: /usr/include/sys/_pthreadtypes.h
+debug/breakpoint.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+debug/breakpoint.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+debug/breakpoint.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h
+debug/breakpoint.o: /usr/include/sys/_null.h cpu/instr.h parser.h mtypes.h
+debug/breakpoint.o: endi.h ../config.h device/device.h utils.h
+debug/breakpoint.o: /usr/include/stdlib.h /usr/include/stdio.h
+debug/breakpoint.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+debug/breakpoint.o: /usr/include/sys/_stdarg.h check.h fault.h debug/gdb.h
+device/machine.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+device/machine.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/machine.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/machine.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/machine.o: /usr/include/stdlib.h /usr/include/string.h
+device/machine.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+device/machine.o: /usr/include/xlocale/_string.h /usr/include/unistd.h
+device/machine.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+device/machine.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+device/machine.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+device/machine.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+device/machine.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+device/machine.o: /usr/include/sys/unistd.h /usr/include/stdint.h
+device/machine.o: /usr/include/stdbool.h /usr/include/inttypes.h
+device/machine.o: /usr/include/machine/_inttypes.h
+device/machine.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+device/machine.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+device/machine.o: device/machine.h mtypes.h list.h main.h cpu/cpu.h
+device/machine.o: cpu/instr.h parser.h mtypes.h endi.h ../config.h
+device/machine.o: device/device.h arch/signal.h io/input.h io/output.h
+device/machine.o: debug/gdb.h debug/breakpoint.h device/dcpu.h env.h parser.h
+device/machine.o: check.h utils.h /usr/include/stdarg.h
+device/machine.o: /usr/include/x86/stdarg.h /usr/include/sys/_stdarg.h
+device/machine.o: fault.h
+device/mem.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+device/mem.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/mem.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/mem.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/mem.o: /usr/include/fcntl.h /usr/include/stdio.h /usr/include/unistd.h
+device/mem.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+device/mem.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+device/mem.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+device/mem.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+device/mem.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+device/mem.o: /usr/include/sys/unistd.h /usr/include/string.h
+device/mem.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+device/mem.o: /usr/include/xlocale/_string.h /usr/include/sys/stat.h
+device/mem.o: /usr/include/sys/time.h /usr/include/time.h
+device/mem.o: /usr/include/xlocale/_time.h /usr/include/errno.h
+device/mem.o: /usr/include/inttypes.h /usr/include/machine/_inttypes.h
+device/mem.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+device/mem.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+device/mem.o: device/mem.h device/device.h /usr/include/stdint.h mtypes.h
+device/mem.o: parser.h /usr/include/stdbool.h mtypes.h cpu/cpu.h list.h
+device/mem.o: cpu/instr.h main.h arch/mmap.h /usr/include/sys/mman.h
+device/mem.o: device/machine.h endi.h ../config.h fault.h text.h io/output.h
+device/mem.o: utils.h /usr/include/stdarg.h /usr/include/x86/stdarg.h
+device/mem.o: /usr/include/sys/_stdarg.h
+device/ddisk.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+device/ddisk.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/ddisk.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/ddisk.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/ddisk.o: /usr/include/fcntl.h /usr/include/unistd.h
+device/ddisk.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+device/ddisk.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+device/ddisk.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+device/ddisk.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+device/ddisk.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+device/ddisk.o: /usr/include/sys/unistd.h /usr/include/string.h
+device/ddisk.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+device/ddisk.o: /usr/include/xlocale/_string.h /usr/include/sys/stat.h
+device/ddisk.o: /usr/include/sys/time.h /usr/include/time.h
+device/ddisk.o: /usr/include/xlocale/_time.h /usr/include/inttypes.h
+device/ddisk.o: /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h
+device/ddisk.o: /usr/include/sys/stdint.h /usr/include/machine/_stdint.h
+device/ddisk.o: /usr/include/x86/_stdint.h device/ddisk.h device/device.h
+device/ddisk.o: /usr/include/stdint.h mtypes.h parser.h
+device/ddisk.o: /usr/include/stdbool.h mtypes.h cpu/cpu.h list.h cpu/instr.h
+device/ddisk.o: main.h text.h arch/mmap.h /usr/include/sys/mman.h
+device/ddisk.o: device/machine.h endi.h ../config.h device/dcpu.h fault.h
+device/ddisk.o: io/output.h utils.h /usr/include/stdio.h
+device/ddisk.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+device/ddisk.o: /usr/include/sys/_stdarg.h
+device/dcpu.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+device/dcpu.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/dcpu.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/dcpu.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/dcpu.o: /usr/include/string.h /usr/include/strings.h
+device/dcpu.o: /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+device/dcpu.o: /usr/include/stdbool.h /usr/include/inttypes.h
+device/dcpu.o: /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h
+device/dcpu.o: /usr/include/sys/stdint.h /usr/include/machine/_stdint.h
+device/dcpu.o: /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h main.h
+device/dcpu.o: device/device.h /usr/include/stdint.h mtypes.h parser.h
+device/dcpu.o: mtypes.h cpu/cpu.h /usr/include/unistd.h
+device/dcpu.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+device/dcpu.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+device/dcpu.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+device/dcpu.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+device/dcpu.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h list.h
+device/dcpu.o: cpu/instr.h debug/debug.h cpu/instr.h device/device.h
+device/dcpu.o: debug/breakpoint.h io/output.h utils.h /usr/include/stdio.h
+device/dcpu.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+device/dcpu.o: /usr/include/sys/_stdarg.h device/dcpu.h
+device/dkeyboard.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+device/dkeyboard.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/dkeyboard.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/dkeyboard.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/dkeyboard.o: /usr/include/unistd.h /usr/include/sys/types.h
+device/dkeyboard.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+device/dkeyboard.o: /usr/include/sys/_pthreadtypes.h
+device/dkeyboard.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+device/dkeyboard.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+device/dkeyboard.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+device/dkeyboard.o: /usr/include/sys/unistd.h /usr/include/string.h
+device/dkeyboard.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+device/dkeyboard.o: /usr/include/xlocale/_string.h /usr/include/sys/time.h
+device/dkeyboard.o: /usr/include/time.h /usr/include/xlocale/_time.h
+device/dkeyboard.o: /usr/include/stdbool.h /usr/include/inttypes.h
+device/dkeyboard.o: /usr/include/machine/_inttypes.h
+device/dkeyboard.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+device/dkeyboard.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+device/dkeyboard.o: arch/stdin.h device/dkeyboard.h device/device.h
+device/dkeyboard.o: /usr/include/stdint.h mtypes.h parser.h mtypes.h
+device/dkeyboard.o: cpu/cpu.h list.h cpu/instr.h main.h device/dcpu.h
+device/dkeyboard.o: io/output.h utils.h /usr/include/stdio.h
+device/dkeyboard.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+device/dkeyboard.o: /usr/include/sys/_stdarg.h
+device/dorder.o: /usr/include/stdlib.h /usr/include/sys/cdefs.h
+device/dorder.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/dorder.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/dorder.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/dorder.o: /usr/include/string.h /usr/include/strings.h
+device/dorder.o: /usr/include/xlocale/_strings.h
+device/dorder.o: /usr/include/xlocale/_string.h /usr/include/stdbool.h
+device/dorder.o: /usr/include/inttypes.h /usr/include/machine/_inttypes.h
+device/dorder.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+device/dorder.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+device/dorder.o: /usr/include/sys/_stdint.h device/dorder.h device/device.h
+device/dorder.o: /usr/include/stdint.h mtypes.h parser.h mtypes.h cpu/cpu.h
+device/dorder.o: /usr/include/unistd.h /usr/include/sys/types.h
+device/dorder.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+device/dorder.o: /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h
+device/dorder.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+device/dorder.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+device/dorder.o: /usr/include/sys/unistd.h list.h cpu/instr.h main.h
+device/dorder.o: device/machine.h endi.h ../config.h device/dcpu.h
+device/dorder.o: io/output.h utils.h /usr/include/stdio.h
+device/dorder.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+device/dorder.o: /usr/include/sys/_stdarg.h
+device/dprinter.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+device/dprinter.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/dprinter.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/dprinter.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/dprinter.o: /usr/include/stdlib.h /usr/include/string.h
+device/dprinter.o: /usr/include/strings.h /usr/include/xlocale/_strings.h
+device/dprinter.o: /usr/include/xlocale/_string.h /usr/include/stdbool.h
+device/dprinter.o: /usr/include/inttypes.h /usr/include/machine/_inttypes.h
+device/dprinter.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+device/dprinter.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+device/dprinter.o: /usr/include/sys/_stdint.h device/dprinter.h
+device/dprinter.o: device/device.h /usr/include/stdint.h mtypes.h parser.h
+device/dprinter.o: mtypes.h cpu/cpu.h /usr/include/unistd.h
+device/dprinter.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+device/dprinter.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+device/dprinter.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+device/dprinter.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+device/dprinter.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h
+device/dprinter.o: list.h cpu/instr.h main.h text.h fault.h io/output.h
+device/dprinter.o: utils.h /usr/include/stdarg.h /usr/include/x86/stdarg.h
+device/dprinter.o: /usr/include/sys/_stdarg.h
+device/dtime.o: /usr/include/time.h /usr/include/sys/cdefs.h
+device/dtime.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/dtime.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/dtime.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/dtime.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+device/dtime.o: /usr/include/xlocale/_time.h /usr/include/stdlib.h
+device/dtime.o: /usr/include/string.h /usr/include/strings.h
+device/dtime.o: /usr/include/xlocale/_strings.h
+device/dtime.o: /usr/include/xlocale/_string.h /usr/include/stdbool.h
+device/dtime.o: /usr/include/sys/time.h /usr/include/sys/_timeval.h
+device/dtime.o: /usr/include/sys/types.h /usr/include/machine/endian.h
+device/dtime.o: /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h
+device/dtime.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+device/dtime.o: /usr/include/sys/_sigset.h /usr/include/inttypes.h
+device/dtime.o: /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h
+device/dtime.o: /usr/include/sys/stdint.h /usr/include/machine/_stdint.h
+device/dtime.o: /usr/include/x86/_stdint.h device/dtime.h device/device.h
+device/dtime.o: /usr/include/stdint.h mtypes.h parser.h mtypes.h cpu/cpu.h
+device/dtime.o: /usr/include/unistd.h /usr/include/sys/unistd.h list.h
+device/dtime.o: cpu/instr.h main.h io/output.h utils.h /usr/include/stdio.h
+device/dtime.o: /usr/include/stdarg.h /usr/include/x86/stdarg.h
+device/dtime.o: /usr/include/sys/_stdarg.h
+device/device.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+device/device.o: /usr/include/sys/_null.h /usr/include/sys/_types.h
+device/device.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+device/device.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+device/device.o: /usr/include/unistd.h /usr/include/sys/types.h
+device/device.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+device/device.o: /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h
+device/device.o: /usr/include/sys/select.h /usr/include/sys/_sigset.h
+device/device.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+device/device.o: /usr/include/sys/_timespec.h /usr/include/sys/unistd.h
+device/device.o: /usr/include/sys/time.h /usr/include/time.h
+device/device.o: /usr/include/xlocale/_time.h /usr/include/stdlib.h
+device/device.o: /usr/include/string.h /usr/include/strings.h
+device/device.o: /usr/include/xlocale/_strings.h
+device/device.o: /usr/include/xlocale/_string.h /usr/include/stdarg.h
+device/device.o: /usr/include/x86/stdarg.h /usr/include/sys/_stdarg.h
+device/device.o: /usr/include/stdbool.h /usr/include/inttypes.h
+device/device.o: /usr/include/machine/_inttypes.h
+device/device.o: /usr/include/x86/_inttypes.h /usr/include/sys/stdint.h
+device/device.o: /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h
+device/device.o: io/output.h main.h check.h cline.h utils.h mtypes.h
+device/device.o: /usr/include/stdint.h fault.h device/mem.h device/device.h
+device/device.o: mtypes.h parser.h cpu/cpu.h list.h cpu/instr.h device/dcpu.h
+device/device.o: device/dkeyboard.h device/dorder.h device/ddisk.h
+device/device.o: device/dprinter.h device/dtime.h
+arch/win32/mmap.o: arch/mmap.h /usr/include/sys/mman.h
+arch/win32/mmap.o: /usr/include/sys/cdefs.h /usr/include/sys/_types.h
+arch/win32/mmap.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+arch/win32/mmap.o: /usr/include/machine/_limits.h /usr/include/x86/_limits.h
+arch/win32/stdin.o: arch/stdin.h /usr/include/stdbool.h
+arch/win32/signal.o: arch/signal.h
+arch/posix/stdin.o: arch/stdin.h /usr/include/stdbool.h /usr/include/unistd.h
+arch/posix/stdin.o: /usr/include/sys/cdefs.h /usr/include/sys/types.h
+arch/posix/stdin.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+arch/posix/stdin.o: /usr/include/sys/_types.h /usr/include/machine/_types.h
+arch/posix/stdin.o: /usr/include/x86/_types.h /usr/include/machine/_limits.h
+arch/posix/stdin.o: /usr/include/x86/_limits.h
+arch/posix/stdin.o: /usr/include/sys/_pthreadtypes.h
+arch/posix/stdin.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+arch/posix/stdin.o: /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h
+arch/posix/stdin.o: /usr/include/sys/timespec.h /usr/include/sys/_timespec.h
+arch/posix/stdin.o: /usr/include/sys/unistd.h /usr/include/sys/_null.h
+arch/posix/signal.o: arch/signal.h /usr/include/signal.h
+arch/posix/signal.o: /usr/include/sys/cdefs.h /usr/include/sys/_types.h
+arch/posix/signal.o: /usr/include/machine/_types.h /usr/include/x86/_types.h
+arch/posix/signal.o: /usr/include/machine/_limits.h
+arch/posix/signal.o: /usr/include/x86/_limits.h /usr/include/sys/signal.h
+arch/posix/signal.o: /usr/include/sys/_sigset.h /usr/include/machine/signal.h
+arch/posix/signal.o: /usr/include/x86/signal.h
+arch/posix/signal.o: /usr/include/sys/_pthreadtypes.h
+arch/posix/signal.o: /usr/include/sys/_timespec.h
+arch/posix/signal.o: /usr/include/machine/ucontext.h
+arch/posix/signal.o: /usr/include/x86/ucontext.h /usr/include/sys/_ucontext.h
+arch/posix/signal.o: /usr/include/stdlib.h /usr/include/sys/_null.h
+arch/posix/signal.o: device/machine.h mtypes.h /usr/include/stdint.h list.h
+arch/posix/signal.o: main.h cpu/cpu.h /usr/include/stdbool.h
+arch/posix/signal.o: /usr/include/unistd.h /usr/include/sys/types.h
+arch/posix/signal.o: /usr/include/machine/endian.h /usr/include/x86/endian.h
+arch/posix/signal.o: /usr/include/sys/_stdint.h /usr/include/sys/select.h
+arch/posix/signal.o: /usr/include/sys/_timeval.h /usr/include/sys/timespec.h
+arch/posix/signal.o: /usr/include/sys/unistd.h cpu/instr.h parser.h mtypes.h
+arch/posix/signal.o: endi.h ../config.h device/device.h io/output.h

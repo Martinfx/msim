@@ -1,0 +1,11 @@
+MIPS system simulator
+32bit variant of R4000
+
+Current version can be found at:
+http://d3s.mff.cuni.cz/~holub/sw/msim/
+
+Official development branch can be downloaded from:
+bzr://d3s.mff.cuni.cz/msim/mainline
+
+To compile and install type:
+./configure && make install
