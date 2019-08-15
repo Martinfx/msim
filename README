@@ -1,11 +1,30 @@
-MIPS system simulator
-32bit variant of R4000
 
-Current version can be found at:
-http://d3s.mff.cuni.cz/~holub/sw/msim/
+Introduction MSIM
 
-Official development branch can be downloaded from:
-bzr://d3s.mff.cuni.cz/msim/mainline
+To develop an operating system from scratch is an invincible problem for most students – but starting at already finished base will never disclose them what the operating systems are about.
 
-To compile and install type:
-./configure && make install
+MSIM is a light-weight computer simulator based on MIPS R4000. It is used for education and research purposes, mainly to teach the construction and implementation of operating systems. MSIM is distributed with source code under the GNU GPL license to make possible modifications for users and works on most POSIX-compliance environments (mainly GNU/Linux, Mac OS X, but can be also compiled in Cygwin or MinGW in Windows). The user interface is simple terminal-style.
+
+MSIM provides following features (along others):
+
+    MIPS R4000 CPU
+        full memory management (TLB)
+        multiprocessor support
+        the instruction set is restricted to 32 bits
+        CPU cache is not simulated
+    simple debugging features (including disassembling, register content dump)
+    several simple hardware devices
+    various hardware-manipulating commands
+    widely configurable memory mapping of devices
+    script-like start-up configuration file
+
+MSIM does not aim to be a speed-optimized real hardware simulator, but rather a fully deterministic simulator useful for kernel debugging. There are several other projects which aim speed-optimized simulation (e.g. GXemul), but they are more complex to use.
+Contact
+
+If you have any ideas for improvements, feel free to contact us. In the case you have found a bug, please let us know via email. Attach the configuration, binary images and a detailed description of the bug so we can reproduce it.
+
+Compile
+
+./compile && make install 
+
+on FreeBSD cd src/ && gmake
